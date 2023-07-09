@@ -1,0 +1,19 @@
+
+{% load static %}
+{% load i18n %}
+
+
+    <div id="wrapper">
+    <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"> 
+                <a href="{% url 'home' %}">
+                    <img src="{% static 'images/logo.svg' %}" alt="logo" />
+                </a>
+            </span>
+            <h1>{% trans 'Stellar' %}</h1>
+            <p>Just another free, fully responsive site template<br />
+            built by <a href="https://instagram.com/thisisraem/" target="_blank">@thisisraem</a></a>.</p>
+        </header>
+       
+    </div>
